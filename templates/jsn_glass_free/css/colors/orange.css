@@ -1,0 +1,110 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+a {
+	color: #f57c33;
+}
+body {
+	background: #eb7a57;
+}
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- ACTION LINK ----- */
+.link-action:hover {
+	background-color: #f57c33;
+}
+/* =============== TYPOGRAPHY - TABLE STYLES =============== */
+/* ----- COLOR HEADER TABLE ----- */
+table.style-colorheader thead th {
+	background-color: #f57c33;
+}
+table.style-colorheader thead th,
+table.style-colorstripes tbody td,
+table.style-colorstripes tbody th {
+    border-right: 1px solid rgba(255,255,255,0.2);
+}
+/* ----- COLOR STRIPES TABLE ----- */
+table.style-colorstripes thead th {
+	background-color: #f57c33;
+}
+table.style-colorstripes thead th.highlight {
+	background-color: #cd4d00;
+}
+table.style-colorstripes thead th,
+table.style-colorstripes tbody tr,
+table.style-colorstripes tbody td {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+}
+table.style-colorstripes tbody tr {
+	background-color: #f79f6c;
+}
+table.style-colorstripes tbody .highlight {
+	background-color: #ec7d3a;
+}
+table.style-colorstripes tbody tr.odd {
+	background-color: #ec8950;
+}
+table.style-colorstripes tbody tr.odd .highlight {
+	background-color: #dc6219;
+}
+table.style-colorstripes tbody tr:hover th,
+table.style-colorstripes tbody tr:hover td {
+	background-color: #e65e0c;
+}
+table.style-colorstripes tbody tr:hover .highlight {
+	background-color: #b04200;
+}
+table.style-colorstripes tfoot th,
+table.style-colorstripes tfoot td {
+	background-color: #F57C31;
+	border-left: none;
+}
+.sectiontableheader {
+	background-color: #55C9E1;
+}
+/* ============================== MODULE STYLES ============================== */
+div.lightbox-2 h3.jsn-moduletitle {
+	position: relative;
+}
+div.lightbox-2 h3.jsn-moduletitle:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	display: block;
+	width: 70px;
+	height: 1px;
+	background-color: #f57c33;
+}
+div.richbox-2 h3.jsn-moduletitle {
+	border-bottom: 1px solid #f8bb96;
+}
+div.solid-2 {
+	background: #f57c33;
+}
+/* ============================== MENU ============================== */
+/* =============== MENU - MAIN MENU =============== */
+div.jsn-modulecontainer ul.menu-mainmenu li:hover > a,
+div.jsn-modulecontainer ul.menu-mainmenu li.active > a {
+	color: #f57c33;
+}
+div.jsn-modulecontainer ul.menu-mainmenu ul li:hover > a {
+	color: #f57c33;
+}
+/* =============== MENU - SIDE/TREE MENU =============== */
+div.jsn-modulecontainer ul.menu-treemenu li:hover > a,
+div.jsn-modulecontainer ul.menu-treemenu li.active > a,
+div.jsn-modulecontainer ul.menu-sidemenu li:hover > a,
+div.jsn-modulecontainer ul.menu-sidemenu li.active > a,
+div.jsn-modulecontainer ul.menu-sidemenu.menu-richmenu li:hover > a .jsn-menudescription,
+div.jsn-modulecontainer ul.menu-sidemenu.menu-richmenu li.active > a .jsn-menudescription {
+	color: #f57c33;
+}
+/* PAGE PAGINATION */
+ul.jsn-pagination li a:hover {
+	background: #f57c33;
+}
